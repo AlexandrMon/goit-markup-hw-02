@@ -7,15 +7,16 @@
 
 
 .body{ font-family:'Roboto',sans-serif;
-       background-color: var(--color-three);}
+       background-color: var(--color-three);
+       color:var(--color-four);
+       letter-spacing: 0, 02em;}
 
 .list {list-style: none;}
-.link {font-style: normal;}
+.link {text-decoration: none;}
 
 .p-descriphion{
       font-size:16px;
       line-height:1,5;
-      letter-spacing:0,02em;
       color: var(--color-four);}
 
 
@@ -23,7 +24,6 @@
       font-weight: 800;
       font-size:18px;
       line-height:1,17;
-      letter-spacing:0,03em;
       text-transform: uppercase;
       color: var(--color-too);}
 .logo-one{color: var(--color-one);}
@@ -34,36 +34,36 @@
 .menu-link{font-weight:500 ;
            font-size:16px;
            line-height:1,5;
-           letter-spacing:0,02em;
            color: var(--color-one);}
 .menu-link:hover,.menu-link:focus{color: var(--color-six);}
-  
+ 
+.adress{font-style: normal;}
+
 .phone-number,.mail{font-size: 16px;
       line-height: 1,5;
-      letter-spacing: 0,02em;
       color:var(--color-one);}
 .phone-number:hover,.phone-number:focus,.mail:hover,.mail:focus {color:var(--color-six);}
 
-
+.hero{background-color: var(--color-one);}
 .title-one{
       font-weight: 700;
       font-size: 56px;
       line-height: 1,07;
       text-align: center;
-      letter-spacing: 0, 02em;
-      background-color: var(--color-one);
       color:var(--color-three);}
 
 .button{
         font-weight: 500;
         font-size: 16px;
         line-height: 1,5;
-        letter-spacing: 0,04em;
+        letter-spacing:0,04em;
         text-transform: uppercase;
         cursor:pointer;
         background-color:var(--color-too);
         color: var(--color-three);}
-  
+.button:hover,.button:focus{ background-color: var(--color-five);
+                             color: var(--color-six);}
+
 .button-too {
          font-weight: 500;
          font-size: 16px;
@@ -75,26 +75,25 @@
          color:var(--color-too);}
 .button-too:hover,.button-too:focus{
       background-color:var(--color-too); 
-      color: var(--color-three);}         
+      color: var(--color-six);}         
+
+.section{background-color:var(--color-five);}
 
 .title-too{font-weight:700;
       font-size: 36px;
       line-height: 1,11;
-      letter-spacing: 0,02em;
       text-align: center;
       text-transform:capitalize;
       color:var(--color-one)}
 
 .title-three-one {font-size:20px;
                   line-height: 1,2;
-                  letter-spacing:0,02em;
                   color:var(--color-one);}
 
  .title-three-too{
       font-weight:500;
       font-size: 20px;
       line-height: 1,2;
-      letter-spacing: 0,02em;
       color:var(--color-one);}
 
  .footer{background-color:var(--color-one);}     
