@@ -9,14 +9,14 @@
 .body{ font-family:'Roboto',sans-serif;
        background-color: var(--color-three);
        color:var(--color-four);
-       letter-spacing: 0, 02em;}
+       letter-spacing: 0,02em;
+       line-height:1,5; }
 
 .list {list-style: none;}
 .link {text-decoration: none;}
 
 .p-descriphion{
       font-size:16px;
-      line-height:1,5;
       color: var(--color-four);}
 
 
@@ -33,16 +33,14 @@
 
 .menu-link{font-weight:500 ;
            font-size:16px;
-           line-height:1,5;
            color: var(--color-one);}
 .menu-link:hover,.menu-link:focus{color: var(--color-six);}
  
 .adress{font-style: normal;}
 
-.phone-number,.mail{font-size: 16px;
-      line-height: 1,5;
-      color:var(--color-one);}
-.phone-number:hover,.phone-number:focus,.mail:hover,.mail:focus {color:var(--color-six);}
+.phone-number-mail{font-size: 16px;
+            color:var(--color-four);}
+.phone-number-mail:hover,.phone-number-mail:focus{color:var(--color-six);}
 
 .hero{background-color: var(--color-one);}
 .title-one{
@@ -55,7 +53,6 @@
 .button{
         font-weight: 500;
         font-size: 16px;
-        line-height: 1,5;
         letter-spacing:0,04em;
         text-transform: uppercase;
         cursor:pointer;
@@ -67,7 +64,6 @@
 .button-too {
          font-weight: 500;
          font-size: 16px;
-         line-height: 1,5;
          letter-spacing: 0,04em;
          text-transform: uppercase;
          cursor: pointer;
@@ -77,8 +73,9 @@
       background-color:var(--color-too); 
       color: var(--color-six);}         
 
-.section{background-color:var(--color-five);}
 
+.section {background-color: var(--color-five);}
+.section-one {background-color:var(--color-three);}
 .title-too{font-weight:700;
       font-size: 36px;
       line-height: 1,11;
