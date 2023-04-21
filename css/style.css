@@ -94,25 +94,12 @@
       text-transform:capitalize;
       color:var(--color-one)}
 
-.title-too-one {
-       font-weight:500;
-       font-size: 36px;
-       line-height: 1.11;
-       letter-spacing: 0.02em;
-       text-align: center;
-       text-transform: capitalize;
-       color: var(--color-one)}
 
-.title-three-one {font-size:20px;
-                  line-height: 1.2;
-                  letter-spacing: 0.02em;
-                  color:var(--color-one);}
 
- .title-three-too{
-      font-weight:500;
-      font-size: 20px;
-      line-height: 1.2;
-      letter-spacing: 0.02em;
-      color:var(--color-one);}
+.title-three {font-weight:500;
+              font-size:20px;
+              line-height: 1.2;
+              letter-spacing: 0.02em;
+              color:var(--color-one);}
 
- .footer{background-color:var(--color-one);}     
+  .footer{background-color:var(--color-one);}     
