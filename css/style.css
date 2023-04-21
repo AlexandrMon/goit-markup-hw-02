@@ -17,6 +17,8 @@
 
 .p-descriphion{
       font-size:16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
       color: var(--color-four);}
 
 
@@ -34,13 +36,17 @@
 
 .menu-link{font-weight:500 ;
            font-size:16px;
-           color: var(--color-one);}
+           color: var(--color-one);
+           line-height: 1.5;
+           letter-spacing: 0.02em;}
 .menu-link:hover,.menu-link:focus{color: var(--color-six);}
  
 .adress{font-style: normal;}
 
 .phone-number-mail{font-size: 16px;
-            color:var(--color-four);}
+            color:var(--color-four);
+            line-height: 1.5;
+            letter-spacing: 0.02em}
 .phone-number-mail:hover,.phone-number-mail:focus{color:var(--color-six);}
 
 .hero{background-color: var(--color-one);}
@@ -56,7 +62,7 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing:0,04em;
+        letter-spacing:0.04em;
         text-transform: uppercase;
         cursor:pointer;
         background-color:var(--color-too);
@@ -67,6 +73,7 @@
 .button-too {font-family:'Roboto',sans-serif;
          font-weight: 500;
          font-size: 16px;
+         line-height: 1.5;
          letter-spacing: 0.04em;
          text-transform: uppercase;
          cursor: pointer;
@@ -82,6 +89,7 @@
 .title-too{font-weight:700;
       font-size: 36px;
       line-height: 1.11;
+      letter-spacing: 0.02em;
       text-align: center;
       text-transform:capitalize;
       color:var(--color-one)}
