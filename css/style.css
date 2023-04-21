@@ -20,7 +20,7 @@
       color: var(--color-four);}
 
 
-.logo{ 
+.logo{font-family:'Releway',sans-serif; 
       font-weight: 800;
       font-size:18px;
       line-height:1,17;
@@ -50,35 +50,35 @@
       text-align: center;
       color:var(--color-three);}
 
-.button{
+.button{font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
+        line-height: 1,5;
         letter-spacing:0,04em;
         text-transform: uppercase;
         cursor:pointer;
         background-color:var(--color-too);
         color: var(--color-three);}
-.button:hover,.button:focus{ background-color: var(--color-five);
-                             color: var(--color-six);}
-
-.button-too {
+.button:hover,.button:focus{ background-color: var(--color-six);}
+                             
+.button-too {font-family:'Roboto',sans-serif;
          font-weight: 500;
          font-size: 16px;
          letter-spacing: 0,04em;
          text-transform: uppercase;
          cursor: pointer;
-         background-color: var(--color-three);
+         background-color: var(--color-five);
          color:var(--color-too);}
 .button-too:hover,.button-too:focus{
-      background-color:var(--color-too); 
-      color: var(--color-six);}         
+      background-color:var(--color-six); 
+      color: var(--color-three);}         
 
 
 .section {background-color: var(--color-five);}
 .section-one {background-color:var(--color-three);}
 .title-too{font-weight:700;
       font-size: 36px;
-      line-height: 1,11;
+      line-height: 1,1;
       text-align: center;
       text-transform:capitalize;
       color:var(--color-one)}
