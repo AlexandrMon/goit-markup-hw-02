@@ -8,9 +8,9 @@
 
 .body{ font-family:'Roboto',sans-serif;
        background-color: var(--color-three);
-       color:var(--color-four);
-       letter-spacing: 0.02em;
-       line-height:1.5; }
+       color:var(--color-four);}
+       
+        
 
 .list {list-style: none;}
 .link {text-decoration: none;}
@@ -20,7 +20,7 @@
       color: var(--color-four);}
 
 
-.logo{font-family:'Releway',normal; 
+.logo{font-family:'Releway',sans-serif; 
       font-weight: 800;
       font-size:18px;
       line-height:1.17;
@@ -62,6 +62,7 @@
         background-color:var(--color-too);
         color: var(--color-three);}
 .button:hover,.button:focus{ background-color: var(--color-six);}
+.card{background-color: var(--color-three);}
                              
 .button-too {font-family:'Roboto',sans-serif;
          font-weight: 500;
