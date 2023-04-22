@@ -63,7 +63,6 @@
         font-size: 16px;
         line-height: 1.5;
         letter-spacing:0.04em;
-        text-transform: uppercase;
         cursor:pointer;
         background-color:var(--color-too);
         color: var(--color-three);}
@@ -75,7 +74,6 @@
          font-size: 16px;
          line-height: 1.5;
          letter-spacing: 0.04em;
-         text-transform: uppercase;
          cursor: pointer;
          background-color: var(--color-five);
          color:var(--color-too);}
@@ -102,4 +100,5 @@
               letter-spacing: 0.02em;
               color:var(--color-one);}
 
-.footer{background-color:var(--color-one);}     
+.footer{background-color:var(--color-one);} 
+.p-footer{color:var(--color-five) }
